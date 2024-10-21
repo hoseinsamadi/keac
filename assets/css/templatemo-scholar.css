@@ -379,6 +379,7 @@ Header Style
   transition: all 0.3s ease 0s;
   position: relative;
   z-index: 999;
+  direction: rtl;
 }
 
 .header-area .main-nav .nav li:last-child {
@@ -390,6 +391,7 @@ Header Style
   padding-right: 5px;
   height: 40px;
   line-height: 40px;
+  text-align: right;
 }
 
 .header-area .main-nav .nav li a {
