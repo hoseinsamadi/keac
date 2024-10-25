@@ -176,6 +176,9 @@ body {
   color: #fff;
 }
 
+.div #rtl {
+  direction: rtl;
+}
 /* 
 ---------------------------------------------
 Pre-loader Style
@@ -342,6 +345,7 @@ Header Style
 
 .header-area .main-nav #search {
   position: relative;
+  direction: rtl;
 }
 
 .header-area .main-nav #search input {
@@ -695,6 +699,9 @@ Banner Style
   border-radius: 25px;
   padding: 100px 100px;
   margin-left: 130px;
+  direction: rtl;
+  text-align: right;
+  
 }
 
 .main-banner .item span.category {
